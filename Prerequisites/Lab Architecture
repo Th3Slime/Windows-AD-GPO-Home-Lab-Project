@@ -1,0 +1,21 @@
+Prerequisites
+Hypervisor: VMware, Hyper-V, or VirtualBox
+
+Windows Server ISO (2016/2019/2022)
+
+Windows 10/11 Pro/Enterprise ISO
+
+Minimum 8GB RAM (16GB recommended)
+
+100GB+ free storage
+
+Lab Architecture
+Domain Controller (Windows Server)
+├── AD DS + DNS + DHCP
+├── Group Policy Management
+├── File Server Role
+└── FSRM
+
+Client Machines (Windows 10/11)
+├── Domain-joined
+└── GPO testing
